@@ -59,12 +59,12 @@
 			<div class="mt-3 gap-2 items-center mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 overflow-hidden">
 
 				<div class="rounded-lg overflow-hidden bg-gray-50 border border-gray-300" id="tarea1">
-					<Textarea placeholder="Enter Text" id="textarea-id" rows="8" name="message" 
+					<textarea placeholder="Enter Text" id="textbox" rows="8" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 					on:input={generatePalindrome}/>
 				</div>
 
 				<div class="rounded-lg overflow-hidden bg-gray-50 border border-gray-300" id="tarea2">
-					<Textarea placeholder="Result" id="textarea-id" rows="8" name="message" 
+					<textarea placeholder="Result" id="textbox" rows="8" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 					bind:value={palindrome}/>
 				</div>
 
@@ -81,6 +81,10 @@
 </section>
 
 <style>	
+
+	#textbox{
+		resize: none;
+	}
 
 	#tarea1{
 		margin-right: 10px;
