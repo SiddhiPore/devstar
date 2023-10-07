@@ -10,5 +10,12 @@ export let tools = {
         icon: 'arrow-right-arrow-left',
         link: '/palindrome-generator',
         description: "Create captivating palindromes effortlessly with our Palindrome Generator. Input your text and watch as it transforms into flawless symmetrical words that read the same backward and forward. Perfect for language enthusiasts, poets, and puzzle lovers. Explore different lengths, styles, and tones to enhance your linguistic creativity. Start crafting mesmerizing palindromes effortlessly and let your words resonate in perfect harmony."
+    },
+    // @ts-ignore
+    'Remove-Line-Breaks': {
+        name: 'Remove-Line-Breaks',
+        icon: 'arrow-right-arrow-left',
+        link: '/Remove-Line-Breaks',
+        description: "Create captivating palindromes effortlessly with our Palindrome Generator. Input your text and watch as it transforms into flawless symmetrical words that read the same backward and forward. Perfect for language enthusiasts, poets, and puzzle lovers. Explore different lengths, styles, and tones to enhance your linguistic creativity. Start crafting mesmerizing palindromes effortlessly and let your words resonate in perfect harmony."
     }
 };
