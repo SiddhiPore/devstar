@@ -16,6 +16,6 @@ export let tools = {
         name: 'Remove-Line-Breaks',
         icon: 'arrow-right-arrow-left',
         link: '/Remove-Line-Breaks',
-        description: "Create captivating palindromes effortlessly with our Palindrome Generator. Input your text and watch as it transforms into flawless symmetrical words that read the same backward and forward. Perfect for language enthusiasts, poets, and puzzle lovers. Explore different lengths, styles, and tones to enhance your linguistic creativity. Start crafting mesmerizing palindromes effortlessly and let your words resonate in perfect harmony."
+        description: "A line breaks removal tool is a simple utility that eliminates newline characters, such as '\n' or '\r', from a text document or string. It's useful for formatting text by joining fragmented lines into a single continuous block of text. Users can input the text with line breaks, and the tool processes it to produce a version with no line breaks, aiding in readability and further data processing."
     }
 };
