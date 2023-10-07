@@ -5,19 +5,19 @@
 
     export let data;
     let inputText = '';
-    let removeBreak = '';
+    let removeBrea = '';
   
     
 	function removeLinebreak()
 	{
     const length = inputText.replace(/[\r\n]+/g, '');
-	removeBreak =`${length}`;
+	removeBrea =`${length}`;
 	}
     
     function copyText() {
         if (inputText.length > 0) {
             var textarea = document.createElement("textarea");
-            textarea.value = removeBreak; 
+            textarea.value = removeBrea; 
             document.body.appendChild(textarea);
             textarea.select();
             document.execCommand("copy");
@@ -25,9 +25,9 @@
         }
     }
 	function downloadPDF() {
-        if (removeBreak.length > 0) {
+        if (removeBrea.length > 0) {
             const pdf = new jsPDF();
-            pdf.text(removeBreak, 10, 10); 
+            pdf.text(removeBrea, 10, 10); 
             pdf.save("Result.pdf"); 
         }
     }
@@ -45,7 +45,7 @@
                 </div>
                 <div class="rounded-lg overflow-hidden bg-gray-50 border border-gray-300" id="tarea2">
                     <textarea readonly placeholder="Result" id="textbox" rows="8" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    bind:value={removeBreak}/>
+                    bind:value={removeBrea}/>
                 </div>
             </div>
             <div id="buttonArea">
