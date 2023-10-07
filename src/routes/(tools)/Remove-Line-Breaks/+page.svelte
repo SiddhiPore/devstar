@@ -3,7 +3,7 @@
     import jsPDF from 'jspdf';
     import Intro from '$lib/Intro.svelte';
 
-    export let data;
+    export let data../Remove-Line-Break/$types.js;
     let inputText = '';
     let removeBreak = '';
   
